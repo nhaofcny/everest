@@ -112,7 +112,7 @@ namespace MARC.Everest.DataTypes
 #if !WINDOWS_PHONE
     [Serializable]
 #endif
-    public class SET<T> : COLL<T>, ISet<T>, ISequence<T>, IColl<T>, IEquatable<SET<T>>
+    public class SET<T> : COLL<T>, Interfaces.ISet<T>, ISequence<T>, IColl<T>, IEquatable<SET<T>>
     {
 
         /// <summary>

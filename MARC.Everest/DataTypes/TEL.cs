@@ -223,7 +223,7 @@ namespace MARC.Everest.DataTypes
 
         #region ITelecommunicationAddress Members
 
-        ISet<CS<TelecommunicationAddressUse>> ITelecommunicationAddress.Use
+        Interfaces.ISet<CS<TelecommunicationAddressUse>> ITelecommunicationAddress.Use
         {
             get
             {
